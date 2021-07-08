@@ -1,0 +1,74 @@
+/* FONT */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,600;0,700;1,100;1,400&display=swap');
+
+/* GERAL */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #33337c;
+}
+/* MAIN */
+
+.container{
+    position: relative;
+}
+
+.container .navigation {
+    position: relative;
+    width: 300px;
+    height: 420px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.container .navigation ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.container .navigation ul li{
+    position: relative;
+    list-style:none;
+    width: 100%;
+    cursor: pointer;
+}
+
+.container .navigation ul li:hover{
+    background-color: #f2f2f2;
+}
+
+.container .navigation ul li a{
+    position: relative;
+    width: 100%;
+    text-decoration: none;
+    color: #33337c;
+    font-size: 1.2rem;
+}
+
+.container .navigation ul li i{
+    color: #33337c;
+    padding: 1.38rem;
+    font-size: 1rem;
+}
+
+/* MOBILE */ 
+
+@media only screen and (max-width: 600px) {
+    
+}
